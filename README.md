@@ -36,7 +36,7 @@ sudo apt update && sudo apt install -y python3 python3-venv python3-pip curl wge
 ```
 ### 3. Install CUDA:
 ```bash
-curl -o cuda.sh https://raw.githubusercontent.com/prolinkmoon/gensyn-testnet/main/install-cuda.sh && chmod +x install-cuda.sh && ./install-cuda.sh
+curl -o install-cuda.sh https://raw.githubusercontent.com/prolinkmoon/gensyn-testnet/main/install-cuda.sh && chmod +x install-cuda.sh && ./install-cuda.sh
 ```
 ### 4. Create a screen session:
 ```bash
